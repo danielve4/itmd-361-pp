@@ -52,7 +52,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
   #content {
-    display: flex;
     flex-flow: row wrap;
   }
   
@@ -63,14 +62,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   }
   
   #three {
-    height:100vw;
     width: 100vw;
   }
 }
 
 @media screen and (min-width: 800px) {
   #content {
-    display: flex;
     flex-flow: row wrap;
   }
   
