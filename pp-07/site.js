@@ -2,17 +2,17 @@
   1. Correct the variable scope so that the console.log call
   outputs the correct value for x (5).
 */
+function pp() {
+  var x = 5;
 
-var x = 5;
+  function double(num) {
+    let x = num * 2;
+    return x;
+  }
 
-function double(num) {
-  let x = num * 2;
-  return x;
+  double(6);
+  console.log('The value of x is:', x, 'It should be 5.');
 }
-
-double(6);
-console.log('The value of x is:', x, 'It should be 5.');
-
 /*
   2. Rewrite the corrected JavaScript above as function that
   does not pollute the global namespace (e.g., neither its
